@@ -14,3 +14,39 @@ img{
     width: 300px;
     height: 300px;
 }
+
+/* navbar design */
+.nav-container{
+    background-color: #000000;
+}
+
+.nav-container ul{
+    padding: 20px;
+    text-align: center;
+}
+ .nav-container ul li{
+     display: inline;
+     margin: 10px;
+ }
+
+ .nav-container ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     border-radius: 5px;
+ }
+
+ .nav-container ul li a:hover{
+     background-color: #222222;
+ }
+
+ /* responsive */
+ @media screen and (max-width: 600px){
+    .nav-container ul li{
+        display: block;
+    }
+    .nav-container ul li a{
+        display: inline-block;
+        width: 100%;
+    }
+ }
