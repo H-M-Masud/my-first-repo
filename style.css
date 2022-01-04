@@ -40,6 +40,9 @@
  h1{
      font-size: 50px;
  }
+ h2{
+     font-size: 30px;
+ }
 
  .orange-color{
      color: orange;
@@ -48,10 +51,12 @@
  .half-width{
      width: 50%;
      padding-left: 2%;
+     margin-bottom: 100px;
  }
 
  .half-width p{
      margin-bottom: 20px;
+     text-align: justify;
  }
 
  .half-width img{
