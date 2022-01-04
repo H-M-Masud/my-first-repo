@@ -134,3 +134,11 @@
     border-image: linear-gradient(#5f27cd, #00d2d3);
     border-image-slice: 1;
  }
+
+ /* footer */
+ .footer p{
+     text-align: center;
+     padding: 20px 0;
+     color: white;
+     background-color: black;
+ }
