@@ -32,10 +32,6 @@
  }
 
 
- /* top banner */
- /* section{
-     display: flex;
- } */
 
  .flexible-container{
      display: flex;
@@ -105,6 +101,8 @@
 
  .experience{
      margin-top: 50px;
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
  }
 
  .experience-item{
