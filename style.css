@@ -13,6 +13,7 @@
 .nav-container ul{
     padding: 20px;
     text-align: center;
+    margin: 0 auto;
 }
  .nav-container ul li{
      display: inline;
@@ -77,5 +78,16 @@
     .nav-container ul li a{
         display: inline-block;
         width: 100%;
+    }
+    section{
+        display: block;
+        width: 100%;
+    }
+    .half-width{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .half-width img{
+        margin-top: 30%;
     }
  }
