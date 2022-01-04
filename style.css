@@ -1,19 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-p{
-    color: navy;
-}
-
-h3{
-    color: orangered;
-}
-img{
-    width: 300px;
-    height: 300px;
-}
 
 /* navbar design */
 .nav-container{
@@ -40,6 +30,45 @@ img{
      background-color: #222222;
  }
 
+
+ /* top banner */
+ section{
+     display: flex;
+ }
+
+ h1{
+     font-size: 50px;
+ }
+
+ .orange-color{
+     color: orange;
+ }
+
+ .half-width{
+     width: 50%;
+     padding-left: 2%;
+ }
+
+ .half-width p{
+     margin-bottom: 20px;
+ }
+
+ .half-width img{
+     width: 80%;
+ }
+
+ .link-btn{
+     background-image: linear-gradient(salmon, orange);
+     padding: 10px 40px;
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+ }
+
+ .top-banner{
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+ }
  /* responsive */
  @media screen and (max-width: 600px){
     .nav-container ul li{
