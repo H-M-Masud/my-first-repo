@@ -33,15 +33,19 @@
 
 
  /* top banner */
- section{
+ /* section{
+     display: flex;
+ } */
+
+ .flexible-container{
      display: flex;
  }
-
  h1{
      font-size: 50px;
  }
  h2{
-     font-size: 30px;
+     font-size: 40px;
+     font-weight: bold;
  }
 
  .orange-color{
@@ -84,7 +88,7 @@
         display: inline-block;
         width: 100%;
     }
-    section{
+    .flexible-container{
         display: block;
         width: 100%;
     }
@@ -95,4 +99,38 @@
     .half-width img{
         margin-top: 30%;
     }
+ }
+
+ /* experience section */
+
+ .experience{
+     margin-top: 50px;
+ }
+
+ .experience-item{
+     width: 40%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-left: 20px;
+     border-radius: 10px;
+     box-shadow: 10px 10px 40px gray;
+     padding: 30px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+
+ .experience-item:hover{
+    box-shadow: 12px 12px 50px gray;
+ }
+
+ #full-stack-experience{
+     border-left: 7px solid;
+     border-image: linear-gradient(purple, salmon);
+     border-image-slice: 1;
+ }
+
+ #baby-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(#5f27cd, #00d2d3);
+    border-image-slice: 1;
  }
